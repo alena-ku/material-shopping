@@ -10,6 +10,9 @@
     <string name="shr_product_title">Title</string>
     <string name="shr_product_description">Secondary text</string>
 
+    <string name="shr_password_helper_text">not use 123</string>
+    <string name="shr_password_length">8</string>
+
     <!-- Shrine backdrop menu labels -->
     <string name="shr_featured_label">Featured</string>
     <string name="shr_apartment_label">Apartment</string>

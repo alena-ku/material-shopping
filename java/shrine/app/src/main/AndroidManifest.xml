@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:name="com.google.codelabs.mdc.java.shrine.application.ShrineApplication"
-        android:theme="@style/Theme.Shrine">
+        android:theme="@style/Theme.Shrine.Dark">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

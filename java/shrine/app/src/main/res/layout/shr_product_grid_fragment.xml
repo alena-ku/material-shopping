@@ -25,8 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:background="@color/productGridBackgroundColor"
-        android:paddingStart="@dimen/shr_product_grid_spacing"
-        android:paddingEnd="@dimen/shr_product_grid_spacing"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:elevation="8dp">
 

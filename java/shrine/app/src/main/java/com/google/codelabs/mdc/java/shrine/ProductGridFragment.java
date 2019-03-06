@@ -76,8 +76,12 @@ public class ProductGridFragment extends Fragment {
             activity.setSupportActionBar(toolbar);
         }
 
-        toolbar.setNavigationOnClickListener(new NavigationIconClickListener(getContext(),
-                view.findViewById(R.id.product_grid), new AccelerateDecelerateInterpolator()));
+        toolbar.setNavigationOnClickListener(new NavigationIconClickListener(
+                getContext(),
+                view.findViewById(R.id.product_grid),
+                new AccelerateDecelerateInterpolator(),
+                getContext().getResources().getDrawable(R.drawable.shr_branded_menu), //menu open icon
+                getContext().getResources().getDrawable(R.drawable.shr_close_menu))); //menu close icon
 
     }
 

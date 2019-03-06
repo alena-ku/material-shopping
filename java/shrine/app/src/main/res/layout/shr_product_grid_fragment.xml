@@ -28,8 +28,13 @@
             style="@style/Widget.Shrine.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            app:contentInsetStart="0dp"
             app:title="@string/shr_app_name"
-            app:navigationIcon="@drawable/shr_menu"/>
+            app:navigationIcon="@drawable/shr_branded_menu"/>
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.widget.NestedScrollView
